@@ -1,0 +1,149 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafafc;
+  color: #777;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.app {
+  width: 90vw;
+}
+
+.upload {
+  color: #6e1e81;
+}
+
+.image-container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.image-container .image {
+  height: 100%;
+}
+
+
+.search-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.surprise {
+  background-color: #ececf1;
+  color: #000;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 4px 12px;
+  margin: 0 0 2px 5px;
+  border: none;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+}
+
+.input-container input {
+  border: none;
+  padding: 13px 14px;
+  box-sizing: border-box;
+  font-size: 15px;
+  outline: none;
+  width: 90%;
+  font-weight: 200;
+}
+
+.input-container input::placeholder {
+  color: #cacaca;
+  font-weight: 200;
+}
+
+.input-container button {
+  min-width: 10%;
+  border: none;
+  border-left: 1px #cacaca solid;
+  background-color: #fff;
+  color: #777;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-container button:active {
+  background-color: #cacaca;
+}
+
+
+.extra-info {
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal {
+  position: relative;
+  z-index: 100;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal button {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.modal button:active {
+  background-color: #fafafc;
+}
+
+.img-container {
+  height: 256px;
+  width: 256px;
+  overflow: hidden;
+}
+
+.answer {
+  box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+  padding: 13px 14px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 200;
+  border-radius: 6px;
+}
