@@ -37,7 +37,6 @@ p {
   height: 100%;
 }
 
-
 .search-section {
   width: 100%;
   display: flex;
@@ -60,7 +59,7 @@ p {
   display: flex;
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+  box-shadow: rgba(0,0,82, 0.15) 0 2px 4px;
 }
 
 .input-container input {
@@ -92,45 +91,8 @@ p {
   background-color: #cacaca;
 }
 
-
 .extra-info {
   text-align: center;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.15);
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-}
-
-.modal {
-  position: relative;
-  z-index: 100;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-.modal button {
-  width: 100%;
-  padding: 20px;
-  border: none;
-  background-color: #fff;
-  cursor: pointer;
-}
-
-.modal button:active {
-  background-color: #fafafc;
 }
 
 .img-container {
@@ -140,7 +102,7 @@ p {
 }
 
 .answer {
-  box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+  box-shadow: rgba(0,0,82, 0.15) 0 2px 4px;
   padding: 13px 14px;
   box-sizing: border-box;
   font-size: 15px;
