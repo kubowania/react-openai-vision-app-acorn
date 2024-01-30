@@ -1,0 +1,22 @@
+containers: frontend: {
+	build: {
+		context: "."
+	}
+	ports: publish: "3000/http"
+	command: ["npm", "run", "start:frontend"]
+	if args.dev {
+		dirs: {
+			"/app": "./"
+		}
+	}
+}
+containers: backend: {
+	build: {
+		context: "."
+	}
+	if args.dev {
+		dirs: {
+			"/app": "./"
+		}
+	}
+}
